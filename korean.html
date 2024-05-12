@@ -1581,82 +1581,80 @@
             </li>
           </ul>
 
-          <h3>4.9 &mdash; HTTP/HTTPS (Hypertext Transfer Protocol/Secure)</h3>
+          <h3>
+            4.9 &mdash; HTTP/HTTPS (하이퍼텍스트 전송 프로토콜/보안, Hypertext
+            Transfer Protocol/Secure)
+          </h3>
           <p>
-            HTTP (HyperText Transfer Protocol) and HTTPS (HTTP Secure) are
-            foundational protocols used for the transfer of information on the
-            internet. HTTP forms the basis of data communication on the World
-            Wide Web, whereas HTTPS adds a layer of security to this
-            communication.
+            HTTP(하이퍼텍스트 전송 프로토콜, Hypertext Transfer Protocol)와
+            HTTPS(보안된 HTTP)는 인터넷을 통한 정보 전송을 위한 기본적인
+            프로토콜입니다. HTTP는 월드 와이드 웹에서 데이터를 통신하기 위한
+            기반 프로토콜로, HTTPS는 이에 보안 계층을 추가한 버전입니다.
           </p>
 
-          <p>Key Aspects of HTTP and HTTPS:</p>
+          <p>HTTP와 HTTPS의 주요 특징:</p>
           <ul>
             <li>
-              <strong>Basic Function:</strong> HTTP is designed to enable
-              communication between web browsers and servers. It follows a
-              request-response structure where the browser requests data, and
-              the server responds with the requested information.
+              <strong>기본 기능:</strong>
+              HTTP는 웹 브라우저와 서버 간의 통신을 가능하게 합니다. 이는
+              브라우저가 데이터를 요청하고 서버가 그 요청에 따라 응답하는
+              요청-응답 모델을 따릅니다.
             </li>
             <li>
-              <strong>Security with HTTPS:</strong> HTTPS is essentially HTTP
-              with encryption. It uses SSL/TLS protocols to encrypt the data
-              transferred between the browser and the server, enhancing security
-              and protecting sensitive information from interception or
-              tampering.
+              <strong>HTTPS와 보안:</strong>
+              HTTPS는 SSL/TLS 프로토콜을 이용해 브라우저와 서버 사이의 데이터를
+              암호화하여 통신의 보안을 강화합니다. 이는 민감한 정보가 도청되거나
+              조작되는 것을 방지합니다.
             </li>
             <li>
-              <strong>Port Numbers:</strong> By default, HTTP uses port 80 and
-              HTTPS uses port 443. These ports are used by web servers to listen
-              for incoming connections from web clients.
+              <strong>포트 번호:</strong>
+              기본적으로 HTTP는 포트 80을, HTTPS는 포트 443을 사용합니다. 이
+              포트들은 웹 서버가 웹 클라이언트의 연결 요청을 받을 때 사용됩니다.
             </li>
             <li>
-              <strong>URL Structure:</strong> In URLs, HTTP is indicated by
-              'http://' while HTTPS is indicated by 'https://'. This small
-              difference in the URL signifies whether the connection to the
-              website is secured with encryption or not.
+              <strong>URL 구조:</strong>
+              RL에서 HTTP는 `http://`로 시작하며, HTTPS는 `https://`로
+              시작합니다. 이는 해당 웹사이트의 연결이 암호화되어 보호되는지
+              여부를 나타냅니다.
             </li>
           </ul>
 
-          <p>Differences and Usage:</p>
+          <p>차이점과 고려 사항:</p>
           <ul>
             <li>
-              <strong>Data Security:</strong> The most significant difference is
-              security. HTTPS provides a secure channel, especially important
-              for websites handling sensitive data like banking, shopping, or
-              personal information.
+              <strong>데이터 보안:</strong>
+              가장 큰 차이점은 보안성입니다. HTTPS는 특히 은행이나 쇼핑몰 같이
+              개인 정보나 민감한 데이터를 다루는 웹사이트에서 데이터를 안전하게
+              송수신할 수 있도록 합니다.
             </li>
             <li>
-              <strong>SEO and Trust:</strong> Search engines like Google give
-              preference to HTTPS websites, considering them more secure. Also,
-              web browsers often display security warnings for HTTP sites,
-              affecting user trust.
+              <strong>SEO 및 신뢰:</strong>
+              검색 엔진은 보안이 강화된 HTTPS 웹사이트를 선호하며, 웹 브라우저는
+              종종 HTTP 사이트에 대해 보안 경고를 표시해 사용자의 신뢰를
+              저하시킵니다.
             </li>
             <li>
-              <strong>Certificate Requirements:</strong> To implement HTTPS, a
-              website must obtain an SSL/TLS certificate from a recognized
-              Certificate Authority (CA). This certificate is crucial for
-              establishing a trusted and encrypted connection.
+              <strong>인증서 요구 사항:</strong>
+              HTTPS를 구현하기 위해서는 웹사이트가 신뢰할 수 있는 인증
+              기관(CA)으로부터 SSL/TLS 인증서를 획득해야 합니다. 이는 신뢰할 수
+              있는 암호화된 연결을 구축하는 데 필수적입니다.
             </li>
             <li>
-              <strong>Performance:</strong> While HTTPS used to be slower than
-              HTTP due to the encryption process, advancements in technology
-              have significantly reduced this performance gap.
+              <strong>성능:</strong> 암호화 과정으로 인해 HTTPS가 HTTP보다 느릴
+              수 있지만, 기술 발전으로 이러한 성능 차이가 많이 줄어들었습니다.
             </li>
           </ul>
 
           <p>
-            Understanding the differences between HTTP and HTTPS is crucial for
-            web developers and users alike. The choice between them can
-            significantly impact website security, user trust, and search engine
-            ranking.
+            웹 개발자와 사용자 모두에게 HTTP와 HTTPS의 차이를 이해하는 것은
+            웹사이트의 보안, 신뢰도 및 검색 엔진 순위에 중요한 영향을 미칩니다.
           </p>
 
           <p>더 알아보기:</p>
           <ul>
             <li>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP"
-                >Guide to HTTP</a
+              <a href="https://developer.mozilla.org/ko/docs/Web/HTTP"
+                >HTTP(한국어)</a
               >
               on MDN
             </li>
@@ -1668,7 +1666,7 @@
             </li>
           </ul>
 
-          <p>Specifications:</p>
+          <p>기술 사양:</p>
           <ul>
             <li>
               <a href="https://httpwg.org/specs/rfc7230.html"
@@ -1680,12 +1678,12 @@
             </li>
           </ul>
 
-          <p>References:</p>
+          <p>참고자료:</p>
 
           <ul>
             <li>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status"
-                >HTTP response status codes</a
+              <a href="https://developer.mozilla.org/ko/docs/Web/HTTP/Status"
+                >HTTP 상태 코드(한국어)</a
               >
               on MDN
             </li>
