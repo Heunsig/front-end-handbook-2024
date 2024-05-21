@@ -1767,7 +1767,7 @@
             </li>
             <li>
               <a href="https://web.dev/articles/howbrowserswork?hl=ko"
-                >브라우저의 작동 방식</a
+                >브라우저의 작동 방식(한국어)</a
               >
               on web.dev
             </li>
@@ -1789,68 +1789,70 @@
             </li>
           </ul>
 
-          <h3>4.11 &mdash; JavaScript Engines</h3>
+          <h3>4.11 &mdash; 자바스크립트(JavaScript) 엔진</h3>
           <p>
-            JavaScript engines, sometimes referred to as "JavaScript Virtual
-            Machines" are specialized software components designed to process,
-            compile, and execute JavaScript code. JavaScript, being a
-            high-level, interpreted scripting language, requires an engine to
-            convert it into executable code that a computer can understand.
-            These engines are not just a part of web browsers but are also used
-            in other contexts, like servers (Node.js uses the V8 engine).
+            JavaScript 엔진은 "JavaScript 가상 머신"이라고도 하며, JavaScript
+            코드를 처리, 컴파일, 실행하는 특수 소프트웨어입니다. JavaScript는
+            고수준의 인터프리터(Interpreter) 스크립트 언어이므로, 컴퓨터가
+            이해할 수 있는 실행 가능한 코드로 변환하기 위해 엔진이 필요합니다.
+            이러한 엔진은 웹 브라우저에 내장되어 있을 뿐만 아니라 서버에서도
+            사용됩니다. 예를 들어, Node.js는 V8 엔진을 사용합니다.
           </p>
 
-          <p>Key Functions of JavaScript Engines:</p>
+          <p>JavaScript 엔진의 주요 기능:</p>
           <ul>
             <li>
-              <strong>Parsing</strong>: The engine reads the raw JavaScript
-              code, breaking it down into elements it can understand (tokens)
-              and constructing a structure (Abstract Syntax Tree - AST) that
-              represents the program's syntactic structure.
+              <strong>파싱(Parsing)</strong>: 엔진은 JavaScript 코드를 읽고,
+              이를 이해할 수 있는 작은 단위(토큰)로 분해한 다음, 프로그램의
+              구조를 나타내는 추상 구문 트리(AST)를 만듭니다.
             </li>
             <li>
-              <strong>Compilation</strong>: Modern JavaScript engines use a
-              technique called Just-In-Time (JIT) compilation. This process
-              involves two stages in many engines:
+              <strong>컴파일(Compilation)</strong>: 현대의 JavaScript 엔진은
+              JIT(Just-In-Time) 컴파일이라는 기법을 사용합니다. 이 과정은 보통
+              두 단계로 이루어집니다:
               <ul>
                 <li>
-                  Baseline Compilation: Converts JavaScript into a simpler
-                  intermediate code quickly.
+                  기본 컴파일(Baseline Compilation): JavaScript를 비교적 간단한
+                  중간 코드로 빠르게 변환합니다.
                 </li>
                 <li>
-                  Optimizing Compilation: Further compiles the code to a more
-                  optimized machine code, improving performance. The engine
-                  might de-optimize the code if certain assumptions are no
-                  longer valid.
+                  최적화 컴파일(Optimizing Compilation): 중간 코드를 더
+                  최적화된(Optimized) 기계어로 컴파일 하여 성능을 향상시킵니다.
+                  엔진은 특정 조건이 맞지 않으면 코드를 다시
+                  비최적화(De-optimize)할 수도 있습니다.
                 </li>
               </ul>
             </li>
             <li>
-              <strong>Execution</strong>: The compiled code is executed by the
-              computer's processor.
+              <strong>실행(Execution)</strong>: 컴파일된 코드는 컴퓨터의
+              프로세서에 의해 실행됩니다.
             </li>
             <li>
-              <strong>Optimization</strong>: During execution, the engine
-              collects data to optimize the code's performance in real-time,
-              often recompiling it for greater efficiency.
+              <strong>최적화(Optimization)</strong>: 실행 중에 엔진은 성능을
+              최적화하기 위해 데이터를 수집하고, 필요한 경우 코드를 다시
+              컴파일하여 효율성을 높입니다.
             </li>
           </ul>
 
-          <p>Major JavaScript Engines:</p>
+          <p>주요 JavaScript 엔진:</p>
           <ul>
             <li>
-              <strong>V8 (Google Chrome, Node.js, Microsoft Edge)</strong>:
-              Known for its speed and efficiency, V8 compiles JavaScript
-              directly to native machine code before executing it.
+              <strong>V8 (Google Chrome, Node.js, Microsoft Edge)</strong>: V8
+              엔진은 속도와 효율이 뛰어나기로 유명합니다. 이 엔진은 JavaScript
+              코드를 컴퓨터가 직접 이해할 수 있는 기계어로 변환하여 빠르게
+              실행합니다. Google에서 개발했으며, Node.js와 같은 서버 환경에서도
+              널리 사용됩니다.
             </li>
             <li>
-              <strong>SpiderMonkey (Mozilla Firefox)</strong>: The first-ever
-              JavaScript engine, it has evolved significantly, focusing on
-              performance and scalability.
+              <strong>SpiderMonkey (Mozilla Firefox)</strong>: Mozilla에서
+              개발한 최초의 JavaScript 엔진으로, 성능과 확장성을 꾸준히
+              개선해왔습니다
             </li>
             <li>
-              <strong>JavaScriptCore (Safari)</strong>: Also known as Nitro, it
-              emphasizes efficient execution.
+              <strong>JavaScriptCore (Safari)</strong>: Nitro라고도 불리는 이
+              엔진은 Apple의 Safari 브라우저에서 사용됩니다. JavaScript 코드를
+              효율적으로 실행하도록 설계되었으며, 특히 iOS와 macOS 환경에서
+              뛰어난 성능을 발휘합니다.
             </li>
           </ul>
 
@@ -1858,8 +1860,9 @@
 
           <ul>
             <li>
-              <a href="https://en.wikipedia.org/wiki/JavaScript_engine"
-                >JavaScript engine</a
+              <a
+                href="https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_%EC%97%94%EC%A7%84"
+                >자바스크립트 엔진(한국어)</a
               >
             </li>
             <!-- https://frontendmasters.com/courses/javascript-cpu-vm/ -->
