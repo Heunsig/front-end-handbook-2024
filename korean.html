@@ -2087,82 +2087,81 @@
             </li>
           </ul>
 
-          <h3>5.3 &mdash; Cascading Style Sheets (CSS)</h3>
+          <h3>
+            5.3 &mdash; 캐스캐이딩 스타일 시트(Cascading Style Sheets, CSS)
+          </h3>
 
           <p>
-            CSS, or Cascading Style Sheets, is a cornerstone style sheet
-            language used in web development to describe the presentation of
-            documents written in HTML. It empowers developers and designers to
-            control the visual aesthetics of web pages, including layout,
-            colors, fonts, and responsiveness to different screen sizes. Unlike
-            HTML, which structures content, CSS focuses on how that content is
-            displayed, enabling the separation of content and design for more
-            efficient and flexible styling. The "cascading" aspect of CSS allows
-            multiple style sheets to influence a single web page, with specific
-            rules taking precedence over others, leading to a cohesive and
-            visually engaging user experience across the web.
+            CSS, 또는 캐스캐이딩 스타일 시트(Cascading Style Sheets)는 HTML로
+            작성된 문서의 디자인을 지정하는데 사용하는 웹 개발의 핵심
+            언어입니다. CSS는 개발자와 디자이너가 웹 페이지의 레이아웃, 색상,
+            글꼴 및 다양한 화면 크기에 맞춘 반응형 디자인을 제어할 수 있도록
+            합니다. HTML이 콘텐츠의 구조를 정의하는 것이라면, CSS는 그 콘텐츠가
+            어떻게 더 매력적으로 보일지에 대해 결정하는 역할을 합니다. CSS의
+            '캐스캐이딩' 기능은 여러 스타일 시트가 하나의 웹 페이지에 적용될 수
+            있게 하여, 각 스타일 규칙마다 우선 순위가 있고, 우선 순위가 높은
+            스타일 규칙이 우선 적용되도록 합니다. 이로 인해 웹 전체에 일관되고
+            매력적인 사용자 경험을 제공합니다.
           </p>
 
           <p>
-            Imagine HTML as the skeleton of a web page—it defines where the
-            headers, paragraphs, images, and other elements go. CSS is like the
-            clothing and makeup—it determines how these elements look. Here's a
-            breakdown:
+            HTML을 웹 페이지의 뼈대라고 생각하면, CSS는 그 웹 페이지의 옷과
+            메이크업 같은 역할을 합니다. HTML은 헤더, 단락, 이미지 등의 요소를
+            정의하고, CSS는 이러한 요소들이 어떻게 보일지를 결정합니다. 아래는
+            CSS의 주요 특징입니다:
           </p>
 
           <ul>
             <li>
-              <strong>Selectors and Properties</strong>: In CSS, you write
-              "rules" that target HTML elements. These rules specify how the
-              elements should be styled. A CSS rule consists of a "selector"
-              (which targets the HTML element) and a "property" (which styles
-              it). For example, you can have a rule that targets all &lt;p&gt;
-              (paragraph) elements and sets their text color to red.
+              <strong>선택자(Selectors) 와 속성(Properties)</strong>: CSS에서는
+              HTML 요소를 대상으로 스타일 규칙을 작성합니다. 이 규칙은 선택자와
+              속성으로 구성되며, 선택자는 어떤 HTML 요소를 스타일링할지를,
+              속성은 어떻게 스타일링할지를 지정합니다. 예를 들어, 모든
+              &lt;p&gt;(단락) 요소의 텍스트 색상을 빨간색으로 설정할 수
+              있습니다.
             </li>
             <li>
-              <strong>Cascading and Specificity:</strong> Styles are applied in
-              order of specificity, with inline styles being the most specific,
-              followed by ID, class, and tag selectors.
+              <strong>캐스캐이딩(Cascading)과 우선순위(Specificity):</strong>
+              스타일은 우선순위에 따라 적용됩니다. 인라인 스타일이 가장
+              우선순위가 높고, 그 다음으로 ID, 클래스, 태그 선택자가 있습니다.
             </li>
             <li>
-              <strong>Box Model</strong>: Everything in CSS is considered as a
-              box, with properties like padding, borders, and margins. These
-              properties define the space around and within each element,
-              affecting layout and spacing.
+              <strong>박스 모델</strong>: CSS에서 모든 요소는 박스로 간주됩니다.
+              패딩, 테두리, 여백과 같은 속성들이 있으며, 이러한 속성들은 요소
+              주위와 내부의 공간을 정의하여 레이아웃과 간격에 영향을 미칩니다.
             </li>
             <li>
-              <strong>External, Internal, and Inline:</strong> CSS can be
-              included externally in a .css file, internally in the HTML head,
-              or inline within HTML elements.
+              <strong>외부, 내부 및 인라인 스타일:</strong> CSS는 외부 .css
+              파일, HTML의 head 내부, 또는 HTML 요소 내부에 인라인으로 포함될 수
+              있습니다.
             </li>
             <li>
-              <strong>Responsive Design</strong>: CSS allows you to make web
-              pages look good on different devices and screen sizes. This is
-              often done using "media queries," which apply different styles
-              based on the device's characteristics, like its width.
+              <strong>반응형 디자인</strong>:CSS를 사용하면 다양한 장치와 화면
+              크기에서 웹 페이지가 잘 보이도록 만들 수 있습니다. "미디어 쿼리"를
+              사용하여 장치의 특성(예: 너비)에 따라 다른 스타일을 적용할 수
+              있습니다.
             </li>
             <li>
-              <strong>Animation and Interaction</strong>: CSS isn't just about
-              static styles. You can create animations, transitions, and hover
-              effects, enhancing the interactivity and visual appeal of your web
-              page.
+              <strong>애니메이션 및 상호작용</strong>: CSS는 단순히 정적
+              스타일을 지정하는 것 이상으로, 애니메이션, 전환, 호버 효과 등을
+              통해 웹 페이지의 상호작용성과 시각적 매력을 높일 수 있습니다.
             </li>
           </ul>
 
           <p>
-            Understanding CSS involves getting familiar with its syntax and
-            rules, and then applying them to create visually appealing and
-            functional web pages. As a front-end engineer, you'd often work
-            closely with CSS, alongside HTML and JavaScript, to create the
-            user-facing part of websites and applications.
+            CSS를 잘 이해하기 위해서는 기본 구문과 규칙을 익히고, 이를 실제로
+            적용하여 시각적으로 매력적이고 기능적인 웹 페이지를 만들어 보는 것이
+            중요합니다. 프론트엔드 엔지니어는 HTML 및 JavaScript와 함께 CSS를
+            사용하여 웹사이트와 애플리케이션의 사용자 인터페이스를 설계하고
+            구현합니다.
           </p>
 
           <p>더 알아보기:</p>
 
           <ul>
             <li>
-              <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS"
-                >Guide to CSS</a
+              <a href="https://developer.mozilla.org/ko/docs/Learn/CSS"
+                >CSS를 이용한 HTML 스타일링 익히기(한국어)</a
               >
               on MDN
             </li>
@@ -2188,11 +2187,11 @@
               from Frontend Masters
             </li>
             <li>
-              <a href="https://web.dev/learn/css">Learn CSS</a> on web.dev
+              <a href="https://web.dev/learn/css?hl=ko">CSS 학습</a> on web.dev
             </li>
           </ul>
 
-          <p>Specifications:</p>
+          <p>명세서:</p>
 
           <ul>
             <li>
@@ -2202,7 +2201,7 @@
             </li>
           </ul>
 
-          <p>References:</p>
+          <p>참고 자료:</p>
 
           <ul>
             <li>
@@ -2217,17 +2216,17 @@
             </li>
             <li>
               <a
-                href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference"
+                href="https://developer.mozilla.org/ko/docs/Web/CSS/Reference"
                 target="_blank"
-                >CSS Reference</a
+                >CSS 참고서(한국어)</a
               >
               on MDN
             </li>
             <li>
               <a
-                href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors"
+                href="https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Selectors"
                 target="_blank"
-                >CSS Selectors Reference</a
+                >CSS 선택자(한국어)</a
               >
               on MDN
             </li>
