@@ -2451,94 +2451,88 @@
             </li>
           </ul>
 
-          <h3>5.6 &mdash; TypeScript</h3>
+          <h3>5.6 &mdash; 타입스크립트(TypeScript)</h3>
 
           <p>
-            TypeScript is an open-source programming language developed and
-            maintained by Microsoft. It is a superset of JavaScript, which means
-            that any valid JavaScript code is also valid TypeScript code.
-            TypeScript adds optional static typing to JavaScript, among other
-            features, enhancing the development experience, especially in larger
-            or more complex codebases.
+            타입스크립트(TypeScript)는 마이크로소프트에서 개발 및 유지보수하는
+            오픈 소스 프로그래밍 언어입니다. 자바스크립트의 확장판으로, 모든
+            유효한 자바스크립트 코드는 유효한 타입스크립트 코드입니다.
+            타입스크립트는 자바스크립트에 선택적으로 정적 타입을 추가하여, 특히
+            크고 복잡한 코드베이스에서 개발을 경험을 향상시킵니다.
           </p>
 
-          <p><strong>Key Features of TypeScript:</strong></p>
+          <p><strong>타입스크립트의 주요 기능:</strong></p>
           <ul>
             <li>
-              Static Type Checking: TypeScript provides static type checking,
-              allowing developers to define types for variables, function
-              parameters, and return values. This helps catch errors and bugs
-              during development, rather than at runtime.
+              정적 타입 검사: 타입스크립트는 변수, 함수의 매개변수, 반환 값의
+              타입을 정의할 수 있습니다. 그리고 정적 타입 검사 기능을 통해
+              코드를 실행 후(런타임)가 아닌 코드를 작성하는 동안 오류와 버그를
+              잡을 수 있습니다.
             </li>
             <li>
-              Type Inference: While TypeScript encourages explicit type
-              annotations, it also has powerful type inference capabilities.
-              This means that it can deduce types from the context, reducing the
-              amount of type-related boilerplate code.
+              타입 추론: 타입 스크립트는 타입을 명시적으로 작성하지 않아도,
+              코드의 문맥을 이해하고 타입을 추론해줍니다. 이를 통해 타입 정의
+              관련 보일러플레이트 코드를 줄여줍니다.
             </li>
             <li>
-              Advanced Type System: TypeScript's type system includes features
-              like generics, enums, tuples, and union/intersection types. These
-              advanced features provide a robust framework for writing complex
-              and well-structured code.
+              고급 타입 시스템: 타입스크립트의 타입 시스템에는 제네릭(Generic)
+              이넘(enum), 튜플(Tuple), 유니언(Union)/인터섹션(Intersection) 등이
+              있습니다. 이러한 고급 타입들을 이용해 복잡하지만 잘 구조화된
+              코드를 작성할 수 있습니다.
             </li>
             <li>
-              Integration with JavaScript Libraries: TypeScript can be used with
-              existing JavaScript libraries and frameworks. Type definitions for
-              many popular libraries are available, allowing them to be used in
-              a TypeScript project with the benefits of type checking.
+              자바스크립트 라이브러리와의 통합: 타입스크립트에서 기존
+              자바스크립트 라이브러리 및 프레임워크를 사용할 수 있습니다. 많은
+              인기 있는 자바스크립트 라이브러리는 타입 정의 파일을 제공하고
+              있어, 자바스크립트 라이브러리 임에도 타입 검사의 이점을 누릴 수
+              있습니다.
             </li>
             <li>
-              Tooling Support: TypeScript has excellent tooling support with
-              integrated development environments (IDEs) and editors like Visual
-              Studio Code. This includes features like autocompletion,
-              navigation, and refactoring.
+              도구 지원: Visual Studio Code와 같은 에터터에서 타입스크립트를
+              위한 도구들을 지원합니다. 이러한 도구들을 통해 자동 완성, 코드
+              네비게이션, 리팩토링 등의 기능들을 사용할 수 있습니다.
             </li>
           </ul>
 
-          <p><strong>Advantages of Using TypeScript:</strong></p>
+          <p><strong>타입스크릅티 사용의 장점:</strong></p>
           <ul>
             <li>
-              Improved Code Quality and Maintainability: Static typing helps
-              detect errors early in the development process, improving overall
-              code quality.
+              코드 품질 및 유지보수성 향상: 정적 타입(Static type)을 사용하면
+              코드 작성 중에 오류를 미리 발견할 수 있어 전체적인 코드 품질을
+              향상 시킬 수 있습니다.
             </li>
             <li>
-              Easier Refactoring and Debugging: Types make it easier to refactor
-              and debug code, as they provide more information about what the
-              code is supposed to do.
+              리팩토링 및 디버깅 쉬움: 타입 정보가 코드의 역할을 명확히 해주기
+              때문에 리팩토링 및 디버깅이 더 쉬워집니다.
             </li>
             <li>
-              Better Developer Experience: Tooling support with autocompletion,
-              code navigation, and documentation improves the developer
-              experience.
+              개발자 경험 향상: 자동 완성, 코드 네비게이션 및 문서화 기능을
+              제공하여 개발자 경험을 크게 향상시킵니다.
             </li>
             <li>
-              Scalability: TypeScript is well-suited for large codebases and
-              teams, where its features can help manage complexity and ensure
-              code consistency.
+              확장성: 타입스크립트는 큰 규모의 프로젝트와 팀에 적합하며, 코드의
+              일관성을 유지하고 복잡성을 관리하는 데 도움을 줍니다.
             </li>
           </ul>
 
-          <p><strong>Considerations:</strong></p>
+          <p><strong>고려사항:</strong></p>
           <ul>
             <li>
-              Learning Curve: For developers not familiar with static typing,
-              there is a learning curve to using TypeScript effectively.
+              학습 곡선(Learning curve): 정적 타입에 익숙하지 않은 개발자에게는
+              타입스크립트를 배우는 데 시간이 걸릴 수 있습니다.
             </li>
             <li>
-              Compilation Step: The need to transpile TypeScript into JavaScript
-              adds an extra step to the build process.
+              컴파일 단계: 타입스크립트를 자바스크립트로 변환하는 컴파일 단계가
+              추가되어 빌드 프로세스가 다소 복잡해질 수 있습니다.
             </li>
           </ul>
 
           <p>
-            In summary, TypeScript enhances JavaScript by adding static typing
-            and other useful features, making it a powerful choice for
-            developing large-scale applications or projects where code
-            maintainability is a priority. It's widely adopted in the front-end
-            community, especially in projects where developers benefit from its
-            robust type system and tooling support.
+            요약하면, 타입스크립트는 정적 타입과 유용한 기능을 추가하여
+            자바스크립트를 더 강력하게 만드는 프로그래밍 언어입니다. 특히 코드
+            유지보수가 중요한 큰 프로젝트에 적합합니다. 강력한 타입 시스템과
+            도구 지원 덕분에 많은 프론트엔드 커뮤니티에서 타입스크립트를
+            사용하고 있습니다.
           </p>
 
           <p>더 알아보기:</p>
@@ -2581,7 +2575,7 @@
             </li>
           </ul>
 
-          <p>Tools</p>
+          <p>툴:</p>
 
           <ul>
             <li>
